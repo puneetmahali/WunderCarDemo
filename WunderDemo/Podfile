@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WunderDemo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  ###Network
+    pod 'Alamofire', '~> 4.7'
+    pod 'RxAlamofire', '~> 4.0.0'
+    pod 'AlamofireObjectMapper', '~> 5.0.0'
+    
+    ###Json Parse
+    pod 'ObjectMapper', '~> 3.0'
+    
+    ###Rxswift
+    pod 'RxSwift', '~> 4.0.0'
+    pod 'RxCocoa', '~> 4.0.0'
+    
+    ###Localization
+    pod 'Localize-Swift'
+
+  # Pods for WunderDemo
+
+  target 'WunderDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WunderDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
