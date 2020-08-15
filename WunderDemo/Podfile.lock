@@ -1,27 +1,30 @@
 PODS:
   - Alamofire (4.9.1)
-  - AlamofireObjectMapper (5.0.0):
-    - Alamofire (~> 4.1)
-    - ObjectMapper (~> 3.0)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
   - Localize-Swift (3.1.0)
   - ObjectMapper (3.5.3)
-  - RxAlamofire (4.0.0):
-    - RxAlamofire/Core (= 4.0.0)
-  - RxAlamofire/Core (4.0.0):
-    - Alamofire (~> 4.5)
-    - RxSwift (~> 4.0)
-  - RxCocoa (4.0.0):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.0.0)
+  - RxAlamofire (5.0.0):
+    - RxAlamofire/Core (= 5.0.0)
+  - RxAlamofire/Core (5.0.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
-  - AlamofireObjectMapper (~> 5.0.0)
+  - AlamofireObjectMapper (~> 5.2.1)
   - Localize-Swift
-  - ObjectMapper (~> 3.0)
-  - RxAlamofire (~> 4.0.0)
-  - RxCocoa (~> 4.0.0)
-  - RxSwift (~> 4.0.0)
+  - ObjectMapper (~> 3.5)
+  - RxAlamofire (~> 5.0.0)
+  - RxCocoa (~> 5.0)
+  - RxSwift (~> 5.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -31,17 +34,19 @@ SPEC REPOS:
     - ObjectMapper
     - RxAlamofire
     - RxCocoa
+    - RxRelay
     - RxSwift
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
   Localize-Swift: 4bed4f0ccac8be2ec3517ee359da80ba2adb0fae
   ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
-  RxAlamofire: 6ea579ac53bf14cb4bc7049a3866e5a769989b1d
-  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
-  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 345289bd4ce3777a0e097720fe8d0f5272e0a861
+PODFILE CHECKSUM: 64502e57a4c717370aafb664fe940e125fb6e2ee
 
 COCOAPODS: 1.5.2

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GDk-IU-QhI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="jEY-Ov-gtu">
+            <objects>
+                <viewController id="J7Q-4N-dAl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PYZ-5x-jJp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ahD-sD-MZE"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="jdb-3e-OSu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBT-Bt-hsI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1199" y="99"/>
+        </scene>
+        <!--Cars-->
+        <scene sceneID="P4Z-96-1uP">
+            <objects>
+                <viewController id="SWx-hP-KcA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cxw-ZG-90Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="OqU-tO-01D"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cars" image="car" catalog="system" id="nzg-Bc-Zd9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbd-oH-RWF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1200" y="-642"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="e23-qy-yfD">
+            <objects>
+                <tabBarController id="GDk-IU-QhI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kYa-6B-dCR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SWx-hP-KcA" kind="relationship" relationship="viewControllers" id="dmm-Yh-16S"/>
+                        <segue destination="J7Q-4N-dAl" kind="relationship" relationship="viewControllers" id="8oV-1c-wsA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HTi-3o-ZXq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167" y="-283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car" catalog="system" width="128" height="93"/>
+        <image name="map" catalog="system" width="128" height="113"/>
+    </resources>
+</document>

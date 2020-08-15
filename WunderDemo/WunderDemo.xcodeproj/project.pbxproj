@@ -12,7 +12,7 @@
 		CB6DD39A4033A8323E1D1E04 /* Pods_WunderDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46829E0E0D8EFCA69B364A53 /* Pods_WunderDemoTests.framework */; };
 		F11485B324E862E900F3F48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485B224E862E900F3F48F /* AppDelegate.swift */; };
 		F11485B524E862E900F3F48F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485B424E862E900F3F48F /* SceneDelegate.swift */; };
-		F11485B724E862E900F3F48F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485B624E862E900F3F48F /* ViewController.swift */; };
+		F11485B724E862E900F3F48F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485B624E862E900F3F48F /* BaseViewController.swift */; };
 		F11485BA24E862E900F3F48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11485B824E862E900F3F48F /* Main.storyboard */; };
 		F11485BC24E862EA00F3F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11485BB24E862EA00F3F48F /* Assets.xcassets */; };
 		F11485BF24E862EA00F3F48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11485BD24E862EA00F3F48F /* LaunchScreen.storyboard */; };
@@ -50,7 +50,7 @@
 		F11485AF24E862E900F3F48F /* WunderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11485B224E862E900F3F48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11485B424E862E900F3F48F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F11485B624E862E900F3F48F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F11485B624E862E900F3F48F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F11485B924E862E900F3F48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F11485BB24E862EA00F3F48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11485BE24E862EA00F3F48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -139,10 +139,11 @@
 		F11485B124E862E900F3F48F /* WunderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F11485E424E87B9800F3F48F /* Model */,
+				F11485E324E87B8C00F3F48F /* View */,
+				F11485E224E87B6D00F3F48F /* ViewModel */,
 				F11485B224E862E900F3F48F /* AppDelegate.swift */,
 				F11485B424E862E900F3F48F /* SceneDelegate.swift */,
-				F11485B624E862E900F3F48F /* ViewController.swift */,
-				F11485B824E862E900F3F48F /* Main.storyboard */,
 				F11485BB24E862EA00F3F48F /* Assets.xcassets */,
 				F11485BD24E862EA00F3F48F /* LaunchScreen.storyboard */,
 				F11485C024E862EA00F3F48F /* Info.plist */,
@@ -166,6 +167,29 @@
 				F11485D624E862EA00F3F48F /* Info.plist */,
 			);
 			path = WunderDemoUITests;
+			sourceTree = "<group>";
+		};
+		F11485E224E87B6D00F3F48F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F11485E324E87B8C00F3F48F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F11485B624E862E900F3F48F /* BaseViewController.swift */,
+				F11485B824E862E900F3F48F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F11485E424E87B9800F3F48F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +390,7 @@
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -376,6 +401,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11485B724E862E900F3F48F /* ViewController.swift in Sources */,
+				F11485B724E862E900F3F48F /* BaseViewController.swift in Sources */,
 				F11485B324E862E900F3F48F /* AppDelegate.swift in Sources */,
 				F11485B524E862E900F3F48F /* SceneDelegate.swift in Sources */,
 			);

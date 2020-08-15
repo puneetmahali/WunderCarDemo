@@ -7,15 +7,15 @@ target 'WunderDemo' do
   
   ###Network
     pod 'Alamofire', '~> 4.7'
-    pod 'RxAlamofire', '~> 4.0.0'
-    pod 'AlamofireObjectMapper', '~> 5.0.0'
+    pod 'RxAlamofire', '~> 5.0.0'
+    pod 'AlamofireObjectMapper', '~> 5.2.1'
     
     ###Json Parse
-    pod 'ObjectMapper', '~> 3.0'
+    pod 'ObjectMapper', '~> 3.5'
     
     ###Rxswift
-    pod 'RxSwift', '~> 4.0.0'
-    pod 'RxCocoa', '~> 4.0.0'
+    pod 'RxSwift', '~> 5.1'
+    pod 'RxCocoa', '~> 5.0'
     
     ###Localization
     pod 'Localize-Swift'
