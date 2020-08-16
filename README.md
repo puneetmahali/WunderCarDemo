@@ -1,7 +1,7 @@
 # WunderCarDemo 🚘 🗺
-### ToDo
-#### Display Cars description.
-#### Display Cars in Map.
+### ToDo:
+#### - Display Cars description.
+#### - Display Cars in Map.
 
 This demo use:
 **tableviews data & mapkit**
