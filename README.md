@@ -4,13 +4,13 @@
 #### - Display Cars in Map.
 
 This demo use:
-**tableviews data & mapkit**, 
-**VIPER Architecture**, 
-**RxSwift**, 
-**Alamofire**, 
-**swift 5**, 
-**xcode 11.6**, 
-**Wunder test api to get cars PlaceMarks, each placemark has some data like name, car engine, fuel, etc**
+- ***tableviews data & mapkit***, 
+- ***VIPER Architecture***, 
+- ***RxSwift***, 
+- ***Alamofire***, 
+- ***swift 5***, 
+- ***xcode 11.6***, 
+- ***Wunder test api to get cars PlaceMarks, each placemark has some data like name, car engine, fuel, etc***
 
 it show the data in two tabs :
 
