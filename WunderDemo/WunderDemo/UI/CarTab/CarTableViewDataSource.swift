@@ -20,6 +20,16 @@ class CarTableViewDataSource: NSObject, UITableViewDataSource , UITableViewDeleg
         if let cell = tableView.dequeueReusableCell(withIdentifier: CarInfoTableViewCell.ID, for: indexPath)
             as? CarInfoTableViewCell{
             
+            //MARK: Make alternate cell backround change
+            if (indexPath.row % 2 == 0)
+            {
+                cell.backgroundColor = .clear
+                cell.carNameLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+            } else {
+                cell.backgroundColor = #colorLiteral(red: 0.1815615892, green: 0.3587294221, blue: 0.4445202351, alpha: 1)
+                cell.carNameLabel.textColor = #colorLiteral(red: 0.9844431281, green: 0.9844661355, blue: 0.9844536185, alpha: 1)
+            }
+            
             let placemark = placeMarkList[indexPath.row]
             cell.updateData(placemark: placemark)
             
