@@ -16,38 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hzU-bV-9un">
-                                <rect key="frame" x="137" y="419" width="141" height="59"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="wunder-launch" translatesAutoresizingMaskIntoConstraints="NO" id="hzU-bV-9un">
+                                <rect key="frame" x="41" y="348" width="332" height="201"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="141" id="L1B-1N-hq0"/>
-                                    <constraint firstAttribute="height" constant="59" id="QfD-R1-RUl"/>
-                                </constraints>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="wunder" translatesAutoresizingMaskIntoConstraints="NO" id="hRE-Oj-aGn">
-                                <rect key="frame" x="121" y="502" width="173" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="173" id="0lH-DV-gKl"/>
-                                    <constraint firstAttribute="height" constant="44" id="KKw-z4-1Na"/>
+                                    <constraint firstAttribute="width" constant="332" id="Hhl-Zi-iD6"/>
+                                    <constraint firstAttribute="height" constant="201" id="p3I-BC-mcR"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="hRE-Oj-aGn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="3k0-9y-Yq8"/>
-                            <constraint firstItem="hRE-Oj-aGn" firstAttribute="top" secondItem="hzU-bV-9un" secondAttribute="bottom" constant="24" id="TDM-zk-8sq"/>
-                            <constraint firstItem="hzU-bV-9un" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="375" id="yU9-la-uhq"/>
-                            <constraint firstItem="hRE-Oj-aGn" firstAttribute="centerX" secondItem="hzU-bV-9un" secondAttribute="centerX" id="ypy-Ga-1CX"/>
+                            <constraint firstItem="hzU-bV-9un" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="304" id="OOd-yG-NFn"/>
+                            <constraint firstItem="hzU-bV-9un" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="g2y-UK-xMo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hzU-bV-9un" secondAttribute="trailing" constant="41" id="ia2-OR-6ZP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hzU-bV-9un" secondAttribute="bottom" constant="313" id="rEd-G3-pYT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="141" height="59"/>
-        <image name="wunder" width="173" height="44"/>
+        <image name="wunder-launch" width="250" height="163"/>
     </resources>
 </document>
