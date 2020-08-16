@@ -7,7 +7,8 @@ This demo use:
 - ***tableviews data & mapkit***, 
 - ***VIPER Architecture***, 
 - ***RxSwift***, 
-- ***Alamofire***, 
+- ***Alamofire***,
+- ***Quick & Nimble***,
 - ***swift 5***, 
 - ***xcode 11.6***, 
 - ***Wunder test api to get cars PlaceMarks, each placemark has some data like name, car engine, fuel, etc***
@@ -18,7 +19,7 @@ it show the data in two tabs :
 
 2- Map Tab to show all the cars location on the map
 
-3- unit testing
+3- unit testing with Quick and Nimble
 
 **Library**
 
