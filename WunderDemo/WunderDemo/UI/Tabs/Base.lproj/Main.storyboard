@@ -23,7 +23,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyU-sm-lZA">
-                                        <rect key="frame" x="133" y="52" width="149" height="29"/>
+                                        <rect key="frame" x="182" y="52" width="50.5" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="dUn-je-O5E"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                         <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -33,13 +36,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="9ZD-VL-ycG"/>
                                     <constraint firstItem="AyU-sm-lZA" firstAttribute="top" secondItem="UQn-ql-jNn" secondAttribute="top" constant="52" id="R6b-hp-5Zl"/>
-                                    <constraint firstItem="AyU-sm-lZA" firstAttribute="leading" secondItem="UQn-ql-jNn" secondAttribute="leading" constant="133" id="WKi-CZ-gFz"/>
-                                    <constraint firstAttribute="trailing" secondItem="AyU-sm-lZA" secondAttribute="trailing" constant="132" id="eUL-C8-QZo"/>
+                                    <constraint firstItem="AyU-sm-lZA" firstAttribute="leading" secondItem="UQn-ql-jNn" secondAttribute="leading" constant="182" id="WKi-CZ-gFz"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AyU-sm-lZA" secondAttribute="trailing" constant="20" symbolic="YES" id="eUL-C8-QZo"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Qml-O6-uuG" firstAttribute="top" secondItem="UQn-ql-jNn" secondAttribute="bottom" id="0hd-BX-NHB"/>
                             <constraint firstItem="Qml-O6-uuG" firstAttribute="leading" secondItem="0g6-UB-xXd" secondAttribute="leading" id="C5g-Wp-UsR"/>
                             <constraint firstItem="UQn-ql-jNn" firstAttribute="leading" secondItem="0g6-UB-xXd" secondAttribute="leading" id="G8u-ZB-Sdv"/>
                             <constraint firstAttribute="bottom" secondItem="Qml-O6-uuG" secondAttribute="bottom" id="PPy-N3-L35"/>
@@ -217,6 +221,9 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wunder Cars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzw-nf-Yw6">
                                         <rect key="frame" x="133" y="52" width="149" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="hJ8-ky-xLa"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                         <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -236,6 +243,7 @@
                             <constraint firstItem="Qyy-Qe-Jd1" firstAttribute="top" secondItem="vFu-dx-RMT" secondAttribute="top" id="Jcw-CZ-ZvL"/>
                             <constraint firstItem="5VS-cI-zKs" firstAttribute="trailing" secondItem="00Z-5E-WiY" secondAttribute="trailing" id="Jec-qN-3LH"/>
                             <constraint firstItem="Qyy-Qe-Jd1" firstAttribute="trailing" secondItem="5VS-cI-zKs" secondAttribute="trailing" id="MPL-WA-h88"/>
+                            <constraint firstItem="00Z-5E-WiY" firstAttribute="top" secondItem="Qyy-Qe-Jd1" secondAttribute="bottom" id="hSD-m3-nKr"/>
                             <constraint firstItem="5VS-cI-zKs" firstAttribute="bottom" secondItem="00Z-5E-WiY" secondAttribute="bottom" id="hfq-kV-1fd"/>
                             <constraint firstItem="Qyy-Qe-Jd1" firstAttribute="leading" secondItem="5VS-cI-zKs" secondAttribute="leading" id="lAk-bt-exf"/>
                             <constraint firstItem="00Z-5E-WiY" firstAttribute="top" secondItem="5VS-cI-zKs" secondAttribute="top" constant="56" id="qyg-iS-Pud"/>

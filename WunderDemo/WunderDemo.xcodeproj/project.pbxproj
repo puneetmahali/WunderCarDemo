@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F76EA440AC2CE877A7C7460 /* Pods_WunderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; };
 		861CE41412E67E7C51A7613A /* Pods_WunderDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220F6D834AC07FFED4100EF1 /* Pods_WunderDemoUITests.framework */; };
 		CB6DD39A4033A8323E1D1E04 /* Pods_WunderDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46829E0E0D8EFCA69B364A53 /* Pods_WunderDemoTests.framework */; };
 		F11485B324E862E900F3F48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485B224E862E900F3F48F /* AppDelegate.swift */; };
@@ -39,6 +38,8 @@
 		F150199C24E8B17900F4B842 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199B24E8B17900F4B842 /* MapTabViewController.swift */; };
 		F150199E24E8B1D700F4B842 /* UIViewExtensiosn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */; };
 		F17FBAB624E8C2F7002C2D43 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17FBAB524E8C2F7002C2D43 /* Localization.strings */; };
+		F18DD04324E9905600AD08A8 /* Pods_WunderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; };
+		F18DD04424E9905600AD08A8 /* Pods_WunderDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F18F891D24E9735600EEEF00 /* CarInfoTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */; };
 		F18F891F24E973C200EEEF00 /* MapTabViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */; };
 		F18F892324E9741900EEEF00 /* PlacemarkResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F892224E9741900EEEF00 /* PlacemarkResponseTests.swift */; };
@@ -64,6 +65,20 @@
 			remoteInfo = WunderDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F18DD04524E9905600AD08A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F18DD04424E9905600AD08A8 /* Pods_WunderDemo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		220F6D834AC07FFED4100EF1 /* Pods_WunderDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F76EA440AC2CE877A7C7460 /* Pods_WunderDemo.framework in Frameworks */,
+				F18DD04324E9905600AD08A8 /* Pods_WunderDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +407,7 @@
 				F11485AC24E862E900F3F48F /* Frameworks */,
 				F11485AD24E862E900F3F48F /* Resources */,
 				BF8D6ED46BAF4660061E1616 /* [CP] Embed Pods Frameworks */,
+				F18DD04524E9905600AD08A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -815,6 +831,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WunderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -835,6 +852,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WunderDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -858,7 +876,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
 				INFOPLIST_FILE = WunderDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -883,7 +901,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
 				INFOPLIST_FILE = WunderDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -905,6 +923,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
 				INFOPLIST_FILE = WunderDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -926,6 +945,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
 				INFOPLIST_FILE = WunderDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
