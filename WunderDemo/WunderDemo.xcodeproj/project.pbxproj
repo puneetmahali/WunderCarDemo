@@ -16,7 +16,6 @@
 		F11485BA24E862E900F3F48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11485B824E862E900F3F48F /* Main.storyboard */; };
 		F11485BC24E862EA00F3F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11485BB24E862EA00F3F48F /* Assets.xcassets */; };
 		F11485BF24E862EA00F3F48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11485BD24E862EA00F3F48F /* LaunchScreen.storyboard */; };
-		F11485CA24E862EA00F3F48F /* WunderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485C924E862EA00F3F48F /* WunderDemoTests.swift */; };
 		F11485D524E862EA00F3F48F /* WunderDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485D424E862EA00F3F48F /* WunderDemoUITests.swift */; };
 		F150197024E8973B00F4B842 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150196F24E8973B00F4B842 /* TabBarViewController.swift */; };
 		F150197324E897BB00F4B842 /* CarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197224E897BB00F4B842 /* CarTabViewController.swift */; };
@@ -40,6 +39,13 @@
 		F150199C24E8B17900F4B842 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199B24E8B17900F4B842 /* MapTabViewController.swift */; };
 		F150199E24E8B1D700F4B842 /* UIViewExtensiosn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */; };
 		F17FBAB624E8C2F7002C2D43 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17FBAB524E8C2F7002C2D43 /* Localization.strings */; };
+		F18F891D24E9735600EEEF00 /* CarInfoTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */; };
+		F18F891F24E973C200EEEF00 /* MapTabViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */; };
+		F18F892324E9741900EEEF00 /* PlacemarkResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F892224E9741900EEEF00 /* PlacemarkResponseTests.swift */; };
+		F18F892524E9744A00EEEF00 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = F18F892424E9744A00EEEF00 /* locations.json */; };
+		F18F892724E974BB00EEEF00 /* ConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F892624E974BB00EEEF00 /* ConstantsTests.swift */; };
+		F18F892924E974FE00EEEF00 /* WunderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F892824E974FE00EEEF00 /* WunderDemoTests.swift */; };
+		F18F892B24E9754500EEEF00 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F892A24E9754500EEEF00 /* TestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +84,6 @@
 		F11485BE24E862EA00F3F48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F11485C024E862EA00F3F48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F11485C524E862EA00F3F48F /* WunderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F11485C924E862EA00F3F48F /* WunderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderDemoTests.swift; sourceTree = "<group>"; };
 		F11485CB24E862EA00F3F48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F11485D024E862EA00F3F48F /* WunderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11485D424E862EA00F3F48F /* WunderDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderDemoUITests.swift; sourceTree = "<group>"; };
@@ -105,6 +110,13 @@
 		F150199B24E8B17900F4B842 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
 		F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensiosn.swift; sourceTree = "<group>"; };
 		F17FBAB524E8C2F7002C2D43 /* Localization.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
+		F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCellTests.swift; sourceTree = "<group>"; };
+		F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewControllerTests.swift; sourceTree = "<group>"; };
+		F18F892224E9741900EEEF00 /* PlacemarkResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkResponseTests.swift; sourceTree = "<group>"; };
+		F18F892424E9744A00EEEF00 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		F18F892624E974BB00EEEF00 /* ConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTests.swift; sourceTree = "<group>"; };
+		F18F892824E974FE00EEEF00 /* WunderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderDemoTests.swift; sourceTree = "<group>"; };
+		F18F892A24E9754500EEEF00 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,8 +212,12 @@
 		F11485C824E862EA00F3F48F /* WunderDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				F11485C924E862EA00F3F48F /* WunderDemoTests.swift */,
+				F18F891B24E9703F00EEEF00 /* UI */,
+				F18F892024E973F400EEEF00 /* Models */,
+				F18F892124E9740300EEEF00 /* Utils */,
+				F18F892824E974FE00EEEF00 /* WunderDemoTests.swift */,
 				F11485CB24E862EA00F3F48F /* Info.plist */,
+				F18F892A24E9754500EEEF00 /* TestHelper.swift */,
 			);
 			path = WunderDemoTests;
 			sourceTree = "<group>";
@@ -330,6 +346,40 @@
 			path = Tabs;
 			sourceTree = "<group>";
 		};
+		F18F891624E95EBE00EEEF00 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F18F891B24E9703F00EEEF00 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F18F891624E95EBE00EEEF00 /* Cell */,
+				F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F18F892024E973F400EEEF00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F18F892224E9741900EEEF00 /* PlacemarkResponseTests.swift */,
+				F18F892424E9744A00EEEF00 /* locations.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F18F892124E9740300EEEF00 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F18F892624E974BB00EEEF00 /* ConstantsTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -405,6 +455,7 @@
 					};
 					F11485C424E862EA00F3F48F = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 						TestTargetID = F11485AE24E862E900F3F48F;
 					};
 					F11485CF24E862EA00F3F48F = {
@@ -449,6 +500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18F892524E9744A00EEEF00 /* locations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +578,9 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
@@ -537,7 +591,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
@@ -586,7 +642,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11485CA24E862EA00F3F48F /* WunderDemoTests.swift in Sources */,
+				F18F891D24E9735600EEEF00 /* CarInfoTableViewCellTests.swift in Sources */,
+				F18F892924E974FE00EEEF00 /* WunderDemoTests.swift in Sources */,
+				F18F891F24E973C200EEEF00 /* MapTabViewControllerTests.swift in Sources */,
+				F18F892B24E9754500EEEF00 /* TestHelper.swift in Sources */,
+				F18F892324E9741900EEEF00 /* PlacemarkResponseTests.swift in Sources */,
+				F18F892724E974BB00EEEF00 /* ConstantsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +854,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
 				INFOPLIST_FILE = WunderDemoTests/Info.plist;
@@ -804,6 +866,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.puneetmahali.WunderDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WunderDemo.app/WunderDemo";
@@ -816,6 +879,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L798UUDWH7;
 				INFOPLIST_FILE = WunderDemoTests/Info.plist;

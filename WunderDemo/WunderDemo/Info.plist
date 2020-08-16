@@ -18,6 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Wunder Demo will use your location.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Wunder Demo would like to use your location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>May we use your current location for Wunder Demo.</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
