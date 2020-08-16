@@ -54,12 +54,12 @@ extension MapTabViewController: PlaceMarkTabViewInput{
      */
     func showCars(for list: [Placemark]){
         list.forEach{
-            addAnnotationForMapView(CLLocation(latitude: $0.late, longitude: $0.long),
+            addAnnotationForMapView(CLLocation(latitude: $0.long, longitude: $0.late),
                                     address: $0.name + ", " + $0.address,
                                     subtitle: $0.allInfoInOneLine)
         }
         if list.count > 0{
-            zoomMap(byFactor: 0.01, centerLocation: (lat: list[0].late, long: list[0].long))
+            zoomMap(byFactor: 0.01, centerLocation: (lat: list[0].long, long: list[0].late))
         }
     }
     
