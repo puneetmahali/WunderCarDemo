@@ -18,6 +18,28 @@
 		F11485BF24E862EA00F3F48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11485BD24E862EA00F3F48F /* LaunchScreen.storyboard */; };
 		F11485CA24E862EA00F3F48F /* WunderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485C924E862EA00F3F48F /* WunderDemoTests.swift */; };
 		F11485D524E862EA00F3F48F /* WunderDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11485D424E862EA00F3F48F /* WunderDemoUITests.swift */; };
+		F150197024E8973B00F4B842 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150196F24E8973B00F4B842 /* TabBarViewController.swift */; };
+		F150197324E897BB00F4B842 /* CarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197224E897BB00F4B842 /* CarTabViewController.swift */; };
+		F150197624E8988300F4B842 /* CarInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197524E8988300F4B842 /* CarInfoTableViewCell.swift */; };
+		F150197824E8A62D00F4B842 /* CarTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197724E8A62D00F4B842 /* CarTableViewDataSource.swift */; };
+		F150197A24E8A68400F4B842 /* PlacemarkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197924E8A68400F4B842 /* PlacemarkResponse.swift */; };
+		F150197C24E8A69800F4B842 /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197B24E8A69800F4B842 /* Placemark.swift */; };
+		F150197F24E8A7A400F4B842 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197E24E8A7A300F4B842 /* API.swift */; };
+		F150198124E8A7C800F4B842 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198024E8A7C800F4B842 /* IntExtensions.swift */; };
+		F150198324E8A7E700F4B842 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198224E8A7E700F4B842 /* AppUtils.swift */; };
+		F150198624E8AB0100F4B842 /* PlaceMarkInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198524E8AB0100F4B842 /* PlaceMarkInteractor.swift */; };
+		F150198824E8AB1B00F4B842 /* PlaceMarkInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198724E8AB1B00F4B842 /* PlaceMarkInteractorInput.swift */; };
+		F150198A24E8AB3600F4B842 /* PlaceMarkInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198924E8AB3600F4B842 /* PlaceMarkInteractorOutput.swift */; };
+		F150198C24E8AB5100F4B842 /* PlaceMarkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198B24E8AB5100F4B842 /* PlaceMarkPresenter.swift */; };
+		F150198E24E8AB6600F4B842 /* PlaceMarkTabPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198D24E8AB6600F4B842 /* PlaceMarkTabPresenterInput.swift */; };
+		F150199024E8AB8100F4B842 /* PlaceMarkTabViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150198F24E8AB8100F4B842 /* PlaceMarkTabViewInput.swift */; };
+		F150199424E8AC0C00F4B842 /* AlamofireDataRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199324E8AC0C00F4B842 /* AlamofireDataRequestExtensions.swift */; };
+		F150199624E8AC2900F4B842 /* BaseMappableNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199524E8AC2900F4B842 /* BaseMappableNetworkRequest.swift */; };
+		F150199824E8AC4800F4B842 /* BaseNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199724E8AC4800F4B842 /* BaseNetworkRequest.swift */; };
+		F150199A24E8AC6B00F4B842 /* PlacemarkListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199924E8AC6B00F4B842 /* PlacemarkListService.swift */; };
+		F150199C24E8B17900F4B842 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199B24E8B17900F4B842 /* MapTabViewController.swift */; };
+		F150199E24E8B1D700F4B842 /* UIViewExtensiosn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */; };
+		F17FBAB624E8C2F7002C2D43 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17FBAB524E8C2F7002C2D43 /* Localization.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +83,28 @@
 		F11485D024E862EA00F3F48F /* WunderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11485D424E862EA00F3F48F /* WunderDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderDemoUITests.swift; sourceTree = "<group>"; };
 		F11485D624E862EA00F3F48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F150196F24E8973B00F4B842 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F150197224E897BB00F4B842 /* CarTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTabViewController.swift; sourceTree = "<group>"; };
+		F150197524E8988300F4B842 /* CarInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCell.swift; sourceTree = "<group>"; };
+		F150197724E8A62D00F4B842 /* CarTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewDataSource.swift; sourceTree = "<group>"; };
+		F150197924E8A68400F4B842 /* PlacemarkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkResponse.swift; sourceTree = "<group>"; };
+		F150197B24E8A69800F4B842 /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
+		F150197E24E8A7A300F4B842 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F150198024E8A7C800F4B842 /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		F150198224E8A7E700F4B842 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		F150198524E8AB0100F4B842 /* PlaceMarkInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkInteractor.swift; sourceTree = "<group>"; };
+		F150198724E8AB1B00F4B842 /* PlaceMarkInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkInteractorInput.swift; sourceTree = "<group>"; };
+		F150198924E8AB3600F4B842 /* PlaceMarkInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkInteractorOutput.swift; sourceTree = "<group>"; };
+		F150198B24E8AB5100F4B842 /* PlaceMarkPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkPresenter.swift; sourceTree = "<group>"; };
+		F150198D24E8AB6600F4B842 /* PlaceMarkTabPresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkTabPresenterInput.swift; sourceTree = "<group>"; };
+		F150198F24E8AB8100F4B842 /* PlaceMarkTabViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkTabViewInput.swift; sourceTree = "<group>"; };
+		F150199324E8AC0C00F4B842 /* AlamofireDataRequestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireDataRequestExtensions.swift; sourceTree = "<group>"; };
+		F150199524E8AC2900F4B842 /* BaseMappableNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMappableNetworkRequest.swift; sourceTree = "<group>"; };
+		F150199724E8AC4800F4B842 /* BaseNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworkRequest.swift; sourceTree = "<group>"; };
+		F150199924E8AC6B00F4B842 /* PlacemarkListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkListService.swift; sourceTree = "<group>"; };
+		F150199B24E8B17900F4B842 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
+		F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensiosn.swift; sourceTree = "<group>"; };
+		F17FBAB524E8C2F7002C2D43 /* Localization.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +183,11 @@
 		F11485B124E862E900F3F48F /* WunderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F17FBAB424E8C27E002C2D43 /* Resources */,
+				F150197D24E8A75800F4B842 /* Utils */,
+				F150199124E8ABDE00F4B842 /* Network */,
 				F11485E424E87B9800F3F48F /* Model */,
-				F11485E324E87B8C00F3F48F /* View */,
-				F11485E224E87B6D00F3F48F /* ViewModel */,
+				F11485E324E87B8C00F3F48F /* UI */,
 				F11485B224E862E900F3F48F /* AppDelegate.swift */,
 				F11485B424E862E900F3F48F /* SceneDelegate.swift */,
 				F11485BB24E862EA00F3F48F /* Assets.xcassets */,
@@ -169,27 +215,119 @@
 			path = WunderDemoUITests;
 			sourceTree = "<group>";
 		};
-		F11485E224E87B6D00F3F48F /* ViewModel */ = {
+		F11485E324E87B8C00F3F48F /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F150198424E8A8DD00F4B842 /* Viper Compnents */,
+				F17FBAB724E8C3B6002C2D43 /* Cells */,
+				F17FBAB824E8C3BE002C2D43 /* Base */,
+				F150197424E8986800F4B842 /* MapTab */,
+				F150197124E897A100F4B842 /* CarTab */,
+				F17FBAB924E8C3FC002C2D43 /* Tabs */,
 			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		F11485E324E87B8C00F3F48F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F11485B624E862E900F3F48F /* BaseViewController.swift */,
-				F11485B824E862E900F3F48F /* Main.storyboard */,
-			);
-			path = View;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		F11485E424E87B9800F3F48F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F150197924E8A68400F4B842 /* PlacemarkResponse.swift */,
+				F150197B24E8A69800F4B842 /* Placemark.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F150197124E897A100F4B842 /* CarTab */ = {
+			isa = PBXGroup;
+			children = (
+				F150197224E897BB00F4B842 /* CarTabViewController.swift */,
+				F150197724E8A62D00F4B842 /* CarTableViewDataSource.swift */,
+			);
+			path = CarTab;
+			sourceTree = "<group>";
+		};
+		F150197424E8986800F4B842 /* MapTab */ = {
+			isa = PBXGroup;
+			children = (
+				F150199B24E8B17900F4B842 /* MapTabViewController.swift */,
+			);
+			path = MapTab;
+			sourceTree = "<group>";
+		};
+		F150197D24E8A75800F4B842 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F150197E24E8A7A300F4B842 /* API.swift */,
+				F150198024E8A7C800F4B842 /* IntExtensions.swift */,
+				F150198224E8A7E700F4B842 /* AppUtils.swift */,
+				F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F150198424E8A8DD00F4B842 /* Viper Compnents */ = {
+			isa = PBXGroup;
+			children = (
+				F150198524E8AB0100F4B842 /* PlaceMarkInteractor.swift */,
+				F150198724E8AB1B00F4B842 /* PlaceMarkInteractorInput.swift */,
+				F150198924E8AB3600F4B842 /* PlaceMarkInteractorOutput.swift */,
+				F150198B24E8AB5100F4B842 /* PlaceMarkPresenter.swift */,
+				F150198D24E8AB6600F4B842 /* PlaceMarkTabPresenterInput.swift */,
+				F150198F24E8AB8100F4B842 /* PlaceMarkTabViewInput.swift */,
+			);
+			path = "Viper Compnents";
+			sourceTree = "<group>";
+		};
+		F150199124E8ABDE00F4B842 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F150199224E8ABF600F4B842 /* Base */,
+				F150199924E8AC6B00F4B842 /* PlacemarkListService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F150199224E8ABF600F4B842 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F150199324E8AC0C00F4B842 /* AlamofireDataRequestExtensions.swift */,
+				F150199524E8AC2900F4B842 /* BaseMappableNetworkRequest.swift */,
+				F150199724E8AC4800F4B842 /* BaseNetworkRequest.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F17FBAB424E8C27E002C2D43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F17FBAB524E8C2F7002C2D43 /* Localization.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F17FBAB724E8C3B6002C2D43 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F150197524E8988300F4B842 /* CarInfoTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F17FBAB824E8C3BE002C2D43 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F11485B624E862E900F3F48F /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F17FBAB924E8C3FC002C2D43 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F150196F24E8973B00F4B842 /* TabBarViewController.swift */,
+				F11485B824E862E900F3F48F /* Main.storyboard */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11485BF24E862EA00F3F48F /* LaunchScreen.storyboard in Resources */,
+				F17FBAB624E8C2F7002C2D43 /* Localization.strings in Resources */,
 				F11485BC24E862EA00F3F48F /* Assets.xcassets in Resources */,
 				F11485BA24E862E900F3F48F /* Main.storyboard in Resources */,
 			);
@@ -416,9 +555,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F150198E24E8AB6600F4B842 /* PlaceMarkTabPresenterInput.swift in Sources */,
+				F150197024E8973B00F4B842 /* TabBarViewController.swift in Sources */,
+				F150198A24E8AB3600F4B842 /* PlaceMarkInteractorOutput.swift in Sources */,
+				F150197A24E8A68400F4B842 /* PlacemarkResponse.swift in Sources */,
+				F150197824E8A62D00F4B842 /* CarTableViewDataSource.swift in Sources */,
+				F150198324E8A7E700F4B842 /* AppUtils.swift in Sources */,
+				F150197324E897BB00F4B842 /* CarTabViewController.swift in Sources */,
+				F150198124E8A7C800F4B842 /* IntExtensions.swift in Sources */,
+				F150199024E8AB8100F4B842 /* PlaceMarkTabViewInput.swift in Sources */,
+				F150198624E8AB0100F4B842 /* PlaceMarkInteractor.swift in Sources */,
+				F150197F24E8A7A400F4B842 /* API.swift in Sources */,
+				F150197C24E8A69800F4B842 /* Placemark.swift in Sources */,
 				F11485B724E862E900F3F48F /* BaseViewController.swift in Sources */,
+				F150198C24E8AB5100F4B842 /* PlaceMarkPresenter.swift in Sources */,
+				F150199624E8AC2900F4B842 /* BaseMappableNetworkRequest.swift in Sources */,
+				F150199424E8AC0C00F4B842 /* AlamofireDataRequestExtensions.swift in Sources */,
+				F150199A24E8AC6B00F4B842 /* PlacemarkListService.swift in Sources */,
+				F150198824E8AB1B00F4B842 /* PlaceMarkInteractorInput.swift in Sources */,
+				F150199E24E8B1D700F4B842 /* UIViewExtensiosn.swift in Sources */,
 				F11485B324E862E900F3F48F /* AppDelegate.swift in Sources */,
+				F150197624E8988300F4B842 /* CarInfoTableViewCell.swift in Sources */,
+				F150199824E8AC4800F4B842 /* BaseNetworkRequest.swift in Sources */,
 				F11485B524E862E900F3F48F /* SceneDelegate.swift in Sources */,
+				F150199C24E8B17900F4B842 /* MapTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
