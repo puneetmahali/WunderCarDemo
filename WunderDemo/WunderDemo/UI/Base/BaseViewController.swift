@@ -19,6 +19,12 @@ class BaseViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if #available(iOS 13.0, *) {
+            setupTabBariOS13()
+        } else {
+            setupTabBar()
+        }
     }
     
     func showErrorMessage(_ message: String) {
@@ -39,6 +45,22 @@ class BaseViewController: UIViewController {
             activityIndicatorView.removeFromSuperview()
             tableView.tableFooterView = nil
         }
+    }
+    @available (iOS 13.0, *)
+    //Mark: Setup TabBar
+    func setupTabBariOS13() {
+        tabBarController?.tabBar.items![0].title = "Cars"
+        tabBarController?.tabBar.items![0].image = UIImage(systemName: "car")
+        tabBarController?.tabBar.items![1].title = "Map"
+        tabBarController?.tabBar.items![1].image = UIImage(systemName: "map")
+    }
+    
+    func setupTabBar() {
+        tabBarController?.tabBar.items![0].title = "Cars"
+        tabBarController?.tabBar.items![0].image = #imageLiteral(resourceName: "car-icon")
+        tabBarController?.tabBar.items![1].title = "Map"
+        tabBarController?.tabBar.items![1].image = #imageLiteral(resourceName: "map-icon")
+    
     }
 }
 

@@ -54,7 +54,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0g6-UB-xXd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="goY-RO-9VC"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map-icon" id="goY-RO-9VC"/>
                     <connections>
                         <outlet property="mapView" destination="Qml-O6-uuG" id="QCo-3p-bMz"/>
                     </connections>
@@ -251,7 +251,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5VS-cI-zKs"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cars" image="car" catalog="system" id="V0y-nr-0cn" userLabel="Cars"/>
+                    <tabBarItem key="tabBarItem" title="Cars" image="car-icon" id="V0y-nr-0cn" userLabel="Cars"/>
                     <connections>
                         <outlet property="carsTableView" destination="00Z-5E-WiY" id="BpE-Ta-hh3"/>
                         <outlet property="dataSource" destination="RKI-7O-Z5a" id="Fzg-3K-zSP"/>
@@ -282,7 +282,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="car" catalog="system" width="128" height="93"/>
-        <image name="map" catalog="system" width="128" height="113"/>
+        <image name="car-icon" width="16" height="16"/>
+        <image name="map-icon" width="21" height="21"/>
     </resources>
 </document>
