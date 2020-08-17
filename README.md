@@ -14,7 +14,7 @@ This demo use:
 - ***Wunder test api to get cars PlaceMarks, each placemark has some data like name, car engine, fuel, etc***
 
 ### Functionalities: 
-it show the data in two tabs :
+It show the data in two tabs :
 
 1- Car Tab to show all the cars in list and each car has its data
 
