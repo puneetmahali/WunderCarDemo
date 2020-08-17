@@ -40,7 +40,7 @@ It show the data in two tabs :
 ![launch](https://user-images.githubusercontent.com/26085208/90342794-52678700-e00b-11ea-8088-8580401c76d5.png)
 ![Simulator Screen Shot - iPhone 11 - 2020-08-17 at 01 10 04](https://user-images.githubusercontent.com/26085208/90346102-71274700-e026-11ea-94f5-86068c6c4a61.png)
 ![Simulator Screen Shot - iPhone 11 - 2020-08-17 at 14 27 30](https://user-images.githubusercontent.com/26085208/90396050-da926e80-e095-11ea-82af-487dd491dc37.png)
-![Simulator Screen Shot - iPhone 11 - 2020-08-17 at 01 06 39](https://user-images.githubusercontent.com/26085208/90346057-23124380-e026-11ea-9b76-4e491aa2b515.png)
+![Simulator Screen Shot - iPhone 11 - 2020-08-17 at 15 20 18](https://user-images.githubusercontent.com/26085208/90400839-64920580-e09d-11ea-9df9-7d895415b63c.png)
 ![Simulator Screen Shot - iPhone 11 - 2020-08-17 at 01 07 24](https://user-images.githubusercontent.com/26085208/90346058-25749d80-e026-11ea-88b0-213d708965c7.png)
 
 
