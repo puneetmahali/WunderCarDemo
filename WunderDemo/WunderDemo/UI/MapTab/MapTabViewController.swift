@@ -99,7 +99,7 @@ extension MapTabViewController: MKMapViewDelegate{
         var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseID)
         if annotationView == nil {
             annotationView =  MKAnnotationView(annotation: annotation, reuseIdentifier: reuseID)
-            annotationView?.image = UIImage(named: "map-pin")
+            annotationView?.image = UIImage(named: "car-icon2")
             annotationView?.canShowCallout = true
             annotationView?.annotation = annotation
         }else{
