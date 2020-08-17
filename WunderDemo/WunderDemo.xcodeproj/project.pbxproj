@@ -19,7 +19,6 @@
 		F150197024E8973B00F4B842 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150196F24E8973B00F4B842 /* TabBarViewController.swift */; };
 		F150197324E897BB00F4B842 /* CarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197224E897BB00F4B842 /* CarTabViewController.swift */; };
 		F150197624E8988300F4B842 /* CarInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197524E8988300F4B842 /* CarInfoTableViewCell.swift */; };
-		F150197824E8A62D00F4B842 /* CarTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197724E8A62D00F4B842 /* CarTableViewDataSource.swift */; };
 		F150197A24E8A68400F4B842 /* PlacemarkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197924E8A68400F4B842 /* PlacemarkResponse.swift */; };
 		F150197C24E8A69800F4B842 /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197B24E8A69800F4B842 /* Placemark.swift */; };
 		F150197F24E8A7A400F4B842 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150197E24E8A7A300F4B842 /* API.swift */; };
@@ -37,6 +36,7 @@
 		F150199A24E8AC6B00F4B842 /* PlacemarkListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199924E8AC6B00F4B842 /* PlacemarkListService.swift */; };
 		F150199C24E8B17900F4B842 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199B24E8B17900F4B842 /* MapTabViewController.swift */; };
 		F150199E24E8B1D700F4B842 /* UIViewExtensiosn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */; };
+		F16213ED24EA8C5200443931 /* SingleMapPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16213EC24EA8C5200443931 /* SingleMapPinViewController.swift */; };
 		F17FBAB624E8C2F7002C2D43 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17FBAB524E8C2F7002C2D43 /* Localization.strings */; };
 		F18DD04324E9905600AD08A8 /* Pods_WunderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; };
 		F18DD04424E9905600AD08A8 /* Pods_WunderDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -106,7 +106,6 @@
 		F150196F24E8973B00F4B842 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		F150197224E897BB00F4B842 /* CarTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTabViewController.swift; sourceTree = "<group>"; };
 		F150197524E8988300F4B842 /* CarInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCell.swift; sourceTree = "<group>"; };
-		F150197724E8A62D00F4B842 /* CarTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewDataSource.swift; sourceTree = "<group>"; };
 		F150197924E8A68400F4B842 /* PlacemarkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkResponse.swift; sourceTree = "<group>"; };
 		F150197B24E8A69800F4B842 /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
 		F150197E24E8A7A300F4B842 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		F150199924E8AC6B00F4B842 /* PlacemarkListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkListService.swift; sourceTree = "<group>"; };
 		F150199B24E8B17900F4B842 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
 		F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensiosn.swift; sourceTree = "<group>"; };
+		F16213EC24EA8C5200443931 /* SingleMapPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMapPinViewController.swift; sourceTree = "<group>"; };
 		F17FBAB524E8C2F7002C2D43 /* Localization.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
 		F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCellTests.swift; sourceTree = "<group>"; };
 		F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewControllerTests.swift; sourceTree = "<group>"; };
@@ -272,7 +272,6 @@
 			isa = PBXGroup;
 			children = (
 				F150197224E897BB00F4B842 /* CarTabViewController.swift */,
-				F150197724E8A62D00F4B842 /* CarTableViewDataSource.swift */,
 			);
 			path = CarTab;
 			sourceTree = "<group>";
@@ -348,6 +347,7 @@
 			isa = PBXGroup;
 			children = (
 				F11485B624E862E900F3F48F /* BaseViewController.swift */,
+				F16213EC24EA8C5200443931 /* SingleMapPinViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -648,7 +648,6 @@
 				F150197024E8973B00F4B842 /* TabBarViewController.swift in Sources */,
 				F150198A24E8AB3600F4B842 /* PlaceMarkInteractorOutput.swift in Sources */,
 				F150197A24E8A68400F4B842 /* PlacemarkResponse.swift in Sources */,
-				F150197824E8A62D00F4B842 /* CarTableViewDataSource.swift in Sources */,
 				F150198324E8A7E700F4B842 /* AppUtils.swift in Sources */,
 				F150197324E897BB00F4B842 /* CarTabViewController.swift in Sources */,
 				F150198124E8A7C800F4B842 /* IntExtensions.swift in Sources */,
@@ -663,6 +662,7 @@
 				F150199A24E8AC6B00F4B842 /* PlacemarkListService.swift in Sources */,
 				F150198824E8AB1B00F4B842 /* PlaceMarkInteractorInput.swift in Sources */,
 				F150199E24E8B1D700F4B842 /* UIViewExtensiosn.swift in Sources */,
+				F16213ED24EA8C5200443931 /* SingleMapPinViewController.swift in Sources */,
 				F11485B324E862E900F3F48F /* AppDelegate.swift in Sources */,
 				F150197624E8988300F4B842 /* CarInfoTableViewCell.swift in Sources */,
 				F150199824E8AC4800F4B842 /* BaseNetworkRequest.swift in Sources */,

@@ -190,6 +190,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="zem-d4-4GV" id="LQ6-cV-oWE"/>
+                                    <outlet property="delegate" destination="zem-d4-4GV" id="Hhb-zr-xCc"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -204,13 +208,41 @@
                     <navigationItem key="navigationItem" title="Wunder Cars" id="qNq-Ss-JvL"/>
                     <connections>
                         <outlet property="carsTableView" destination="00Z-5E-WiY" id="BpE-Ta-hh3"/>
-                        <outlet property="dataSource" destination="RKI-7O-Z5a" id="Fzg-3K-zSP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7s-i6-BYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="RKI-7O-Z5a" customClass="CarTableViewDataSource" customModule="WunderDemo" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="-787.5"/>
+        </scene>
+        <!--Car Location-->
+        <scene sceneID="2O4-3X-Eec">
+            <objects>
+                <viewController storyboardIdentifier="SingleMapPinViewController" id="55M-Ff-x9k" customClass="SingleMapPinViewController" customModule="WunderDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pAq-a4-l1q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Xzu-X7-Pld">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fFZ-5E-Knn" firstAttribute="bottom" secondItem="Xzu-X7-Pld" secondAttribute="bottom" id="BGe-ds-Wgy"/>
+                            <constraint firstItem="Xzu-X7-Pld" firstAttribute="leading" secondItem="fFZ-5E-Knn" secondAttribute="leading" id="Roi-24-ZhZ"/>
+                            <constraint firstItem="fFZ-5E-Knn" firstAttribute="trailing" secondItem="Xzu-X7-Pld" secondAttribute="trailing" id="mSd-IU-zuE"/>
+                            <constraint firstItem="Xzu-X7-Pld" firstAttribute="top" secondItem="fFZ-5E-Knn" secondAttribute="top" id="qKF-6a-cK4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fFZ-5E-Knn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Car Location" id="Vyu-Xa-avA"/>
+                    <connections>
+                        <outlet property="mapView" destination="Xzu-X7-Pld" id="KEQ-Eo-hcA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zcT-4H-G0W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="-788"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="lGZ-yq-z2y">
