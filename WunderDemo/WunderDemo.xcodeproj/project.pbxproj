@@ -40,7 +40,6 @@
 		F17FBAB624E8C2F7002C2D43 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F17FBAB524E8C2F7002C2D43 /* Localization.strings */; };
 		F18DD04324E9905600AD08A8 /* Pods_WunderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; };
 		F18DD04424E9905600AD08A8 /* Pods_WunderDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 931F4CD1B6C2671AA90531DA /* Pods_WunderDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F18F891D24E9735600EEEF00 /* CarInfoTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */; };
 		F18F891F24E973C200EEEF00 /* MapTabViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */; };
 		F18F892324E9741900EEEF00 /* PlacemarkResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18F892224E9741900EEEF00 /* PlacemarkResponseTests.swift */; };
 		F18F892524E9744A00EEEF00 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = F18F892424E9744A00EEEF00 /* locations.json */; };
@@ -125,7 +124,6 @@
 		F150199D24E8B1D700F4B842 /* UIViewExtensiosn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensiosn.swift; sourceTree = "<group>"; };
 		F16213EC24EA8C5200443931 /* SingleMapPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMapPinViewController.swift; sourceTree = "<group>"; };
 		F17FBAB524E8C2F7002C2D43 /* Localization.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localization.strings; sourceTree = "<group>"; };
-		F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableViewCellTests.swift; sourceTree = "<group>"; };
 		F18F891E24E973C200EEEF00 /* MapTabViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewControllerTests.swift; sourceTree = "<group>"; };
 		F18F892224E9741900EEEF00 /* PlacemarkResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkResponseTests.swift; sourceTree = "<group>"; };
 		F18F892424E9744A00EEEF00 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
@@ -364,7 +362,6 @@
 		F18F891624E95EBE00EEEF00 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				F18F891C24E9735600EEEF00 /* CarInfoTableViewCellTests.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -675,7 +672,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18F891D24E9735600EEEF00 /* CarInfoTableViewCellTests.swift in Sources */,
 				F18F892924E974FE00EEEF00 /* WunderDemoTests.swift in Sources */,
 				F18F891F24E973C200EEEF00 /* MapTabViewControllerTests.swift in Sources */,
 				F18F892B24E9754500EEEF00 /* TestHelper.swift in Sources */,
